@@ -1,0 +1,62 @@
+{
+  "HER2_positive": {
+    "model": "M1_available_covariates",
+    "C": 0.01,
+    "features": [
+      "age",
+      "T2",
+      "T3",
+      "T4",
+      "N1",
+      "N2",
+      "N3",
+      "HR_positive"
+    ],
+    "intercept_original_scale": -0.43477786440356836,
+    "coefficients_original_scale": {
+      "age": 0.00025511272243488925,
+      "T2": -0.12012835650846954,
+      "T3": 0.14637370917262216,
+      "T4": -0.23081796767794718,
+      "N1": 0.11983660843108918,
+      "N2": -0.04137673789524658,
+      "N3": 0.38993279780144635,
+      "HR_positive": 0.005578775412341476
+    },
+    "threshold": 0.3833735492668464,
+    "cutoff_source": "averaged nested outer OOF Youden",
+    "development_n": 381,
+    "development_pcr": 150,
+    "slope_parameters": 8
+  },
+  "TNBC": {
+    "model": "M1_available_covariates",
+    "C": 0.01,
+    "features": [
+      "age",
+      "T2",
+      "T3",
+      "T4",
+      "N1",
+      "N2",
+      "N3",
+      "Ki67_high"
+    ],
+    "intercept_original_scale": -0.5547606772707755,
+    "coefficients_original_scale": {
+      "age": -0.002194030929944729,
+      "T2": -0.026828369031383456,
+      "T3": -0.008568569859653352,
+      "T4": 0.008078045157560264,
+      "N1": -0.09434550321977533,
+      "N2": -0.046543019286137445,
+      "N3": 0.12197358123152797,
+      "Ki67_high": -0.04761833209545408
+    },
+    "threshold": 0.28880198877523044,
+    "cutoff_source": "averaged nested outer OOF Youden",
+    "development_n": 189,
+    "development_pcr": 60,
+    "slope_parameters": 8
+  }
+}

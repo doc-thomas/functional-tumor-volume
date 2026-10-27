@@ -1,0 +1,62 @@
+{
+  "HER2_positive": {
+    "conventional": {
+      "feature": "v8_a",
+      "intercept": 4.961602594284555,
+      "beta_log1p_ml": -2.3104011088571754,
+      "cutoff": 0.33327800702016963,
+      "unit_status": "mL"
+    },
+    "global": {
+      "feature": "v3_b",
+      "intercept": 5.857673115521381,
+      "beta_log1p_ml": -2.082185428531962,
+      "cutoff": 0.4970883987482747,
+      "unit_status": "mL"
+    },
+    "adaptive": {
+      "feature": "v2_a",
+      "intercept": 4.961602594284555,
+      "beta_log1p_ml": -2.3104011088571754,
+      "cutoff": 0.5487594117109202,
+      "unit_status": "mL"
+    },
+    "conventional_matched_time": {
+      "feature": "v8_a",
+      "intercept": 4.961602594284555,
+      "beta_log1p_ml": -2.3104011088571754,
+      "cutoff": 0.33327800702016963,
+      "unit_status": "mL"
+    }
+  },
+  "TNBC": {
+    "conventional": {
+      "feature": "v8_a",
+      "intercept": 4.44313441491352,
+      "beta_log1p_ml": -2.330122106493157,
+      "cutoff": 0.2749673606616327,
+      "unit_status": "mL"
+    },
+    "global": {
+      "feature": "v3_b",
+      "intercept": 7.7452424484515365,
+      "beta_log1p_ml": -2.8257655155090675,
+      "cutoff": 0.3186932602746394,
+      "unit_status": "mL"
+    },
+    "adaptive": {
+      "feature": "v3_b",
+      "intercept": 7.7452424484515365,
+      "beta_log1p_ml": -2.8257655155090675,
+      "cutoff": 0.5169895006150258,
+      "unit_status": "mL"
+    },
+    "conventional_matched_time": {
+      "feature": "v8_b",
+      "intercept": 7.7452424484515365,
+      "beta_log1p_ml": -2.8257655155090675,
+      "cutoff": 0.5169895006150258,
+      "unit_status": "mL"
+    }
+  }
+}

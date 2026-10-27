@@ -1,0 +1,11 @@
+﻿topic,manuscript_location,repository_location
+Cohort and baseline,Table 1,01_Study_Data/cohort_assignments.csv;02_Statistical_Analysis/tables/baseline_by_center.csv
+Main performance,Table 2; Supplementary Table S11,04_Expected_Results/primary_model_performance.csv;04_Expected_Results/tumor_volume_model_performance.csv
+FTV threshold models,Supplementary Table S2,03_Prediction_Models/FTV_model_parameters.json
+Complete fitted parameters,Supplementary Table S19,03_Prediction_Models
+HR subgroup analyses,Supplementary Tables S12-S13 and S16; Figure 7,02_Statistical_Analysis/her2_hr_subgroups
+Volume and relative FTV,Supplementary Figure S2; Table S10,02_Statistical_Analysis/tumor_volume_comparisons
+Threshold stability and calibration,Supplementary Figure S1; Table S17,02_Statistical_Analysis/ftv_stability_and_calibration
+Recorded treatment sensitivity,Supplementary Table S18; Figure S3,02_Statistical_Analysis/tables/treatment_adjusted_performance.csv
+Recorded recurrence,Supplementary Table S9; Figure S4,02_Statistical_Analysis/tables/recurrence_associations_A_SD.csv
+FTV measurement reliability,Supplementary Table S20; Figure S5,06_FTV_Reliability/TableS20_FTV_reliability.csv
